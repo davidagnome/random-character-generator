@@ -94,5 +94,56 @@
 
 function more_random(){
     var a=document.getElementById("output"),b=parseInt(a.rows);
-    if(b<1)b=1;b=generate_list("main",b);a.value=b.join("\n")
+    if(b<1)b=1;
+    b=generate_list("main",b);
+    a.value=b.join("\n")
+};
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_gender(){
+    var a=document.getElementById("gender"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("gender",b);
+    a.value=b.join("\n")
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_archetype(){
+    var a=document.getElementById("archetype"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("archetype",b);
+    a.value=b.join("\n")
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_weapon(){
+    var a=document.getElementById("weapon"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("weapon",b);
+    a.value=b.join("\n")
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_motivation(){
+    var a=document.getElementById("motivation"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("motivation",b);
+    a.value=b.join("\n")
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_strength(){
+    var a=document.getElementById("strength"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("strength",b);
+    a.value=b.join("\n")
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_flaw(){
+    var a=document.getElementById("flaw"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("flaw",b);
+    a.value=b.join("\n")
 };

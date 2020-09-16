@@ -1,7 +1,8 @@
 # random-character-generator
-written and released to the public domain by drow <drow@bin.sh>
 
-## Originally licensed
+
+## Credit
+based on source originally written and released to the public domain by drow <drow@bin.sh>
 http://creativecommons.org/publicdomain/zero/1.0/
 
 ## json format
