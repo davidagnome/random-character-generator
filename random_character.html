@@ -5,38 +5,57 @@
 		<link rel="stylesheet" href="character_style.css">
 	</head>
 	<body>
-		<h1>Random Character Generator</h1>
+		<header><h1>Random Character Generator</h1></header>
 		<form method="get" onsubmit="return false;">
 			<h2>Five Characters</h2>
 			<p><textarea id="output" cols="100" rows="5" readonly></textarea></p>
 			<p><input type="button" value="Generate 5 Character Biographies" onclick="more_random('');" /></p>
-			<dl>
-				<dt>Gender</dt>
-				<dd><textarea id="gender" cols="100" rows="1"></textarea></dd>
-				<dt>Archetype</dt>
-				<dd><textarea id="archetype" cols="100" rows="1"></textarea></dd>
-				<dt>Weapon</dt>
-				<dd><textarea id="weapon" cols="100" rows="1"></textarea></dd>
-				<dt>Motivation</dt>
-				<dd><textarea id="motivation" cols="100" rows="1"></textarea></dd>
-				<dt>Strength</dt>
-				<dd><textarea id="strength" cols="100" rows="1"></textarea></dd>
-				<dt>Flaw</dt>
-				<dd><textarea id="flaw" cols="100" rows="1"></textarea></dd>
-			</dl>
+
 			<h2>Randomize an Attribute</h2>
-			<p>
+			<div class="input-group fluid">
+				<label>Gender</label>
+				<textarea id="gender" cols="100" rows="1"></textarea>
 				<input type="button" value="Gender" onclick="more_gender('');" />
+			</div>
+			<div class="input-group fluid">
+				<label>Archetype</label>
+				<textarea id="archetype" cols="100" rows="1"></textarea>
 				<input type="button" value="Archetype" onclick="more_archetype('');" />
+			</div>
+			<div class="input-group fluid">
+				<label>Weapon</label>
+				<textarea id="weapon" cols="100" rows="1"></textarea>
 				<input type="button" value="Weapon" onclick="more_weapon('');" />
+			</div>
+			<div class="input-group fluid">
+				<label>Biome</label>
+				<textarea id="biome" cols="100" rows="1"></textarea>
+				<input type="button" value="Biome" onclick="more_biome('');" />
+			</div>
+			<div class="input-group fluid">
+				<label>Settlement</label>
+				<textarea id="settlement" cols="100" rows="1"></textarea>
+				<input type="button" value="Settlement" onclick="more_settlement('');" />
+			</div>
+			<div class="input-group fluid">
+				<label>Motivation</label>
+				<textarea id="motivation" cols="100" rows="1"></textarea>
 				<input type="button" value="Motivation" onclick="more_motivation('');" />
-				<input type="button" value="Strength" onclick="more_strength('');" />
-				<input type="button" value="Flaw" onclick="more_flaw('');" />
-			</p>
+			</div>
+			<div class="input-group fluid">
+				<label>Hope</label>
+				<textarea id="hope" cols="100" rows="1"></textarea>
+				<input type="button" value="Hope" onclick="more_hope('');" />
+			</div>
+			<div class="input-group fluid">
+				<label>Fear</label>
+				<textarea id="fear" cols="100" rows="1"></textarea>
+				<input type="button" value="Fear" onclick="more_fear('');" />
+			</div>
 
 			<h2>Randomize All</h2>
 			<p>
-				<input type="button" value="Randomize All" onclick="more_random('') + more_gender('') + more_archetype('') + more_weapon('') + more_motivation('') + more_strength('') + more_flaw('');" />
+				<input type="button" value="Randomize All" onclick="more_random('') + more_gender('') + more_archetype('') + more_weapon('') + more_biome('') + more_settlement('') + more_motivation('') + more_hope('') + more_fear('');" />
 			</p>
 		</form>
 

@@ -125,6 +125,22 @@ function more_weapon(){
 };
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_biome(){
+    var a=document.getElementById("biome"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("biome",b);
+    a.value=b.join("\n")
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_settlement(){
+    var a=document.getElementById("settlement"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("settlement",b);
+    a.value=b.join("\n")
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function more_motivation(){
     var a=document.getElementById("motivation"),b=parseInt(a.rows);
     if(b<1)b=1;
@@ -133,17 +149,17 @@ function more_motivation(){
 };
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-function more_strength(){
-    var a=document.getElementById("strength"),b=parseInt(a.rows);
+function more_hope(){
+    var a=document.getElementById("hope"),b=parseInt(a.rows);
     if(b<1)b=1;
-    b=generate_list("strength",b);
+    b=generate_list("hope",b);
     a.value=b.join("\n")
 };
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-function more_flaw(){
-    var a=document.getElementById("flaw"),b=parseInt(a.rows);
+function more_fear(){
+    var a=document.getElementById("fear"),b=parseInt(a.rows);
     if(b<1)b=1;
-    b=generate_list("flaw",b);
+    b=generate_list("fear",b);
     a.value=b.join("\n")
 };
