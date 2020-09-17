@@ -8,7 +8,7 @@
 // http://en.wikipedia.org/wiki/JSON
 
   gen_data['main'] = [
-    '{first_name}, a {gender} {archetype}, wearing {armor} and wielding {weapon}. {first_name} grew up in a {biome} {settlement}. They are motivated by {motivation}. They try to live a {hope} life and face conflict for {fear}.\n'
+    '{first_name}, a {gender} {archetype}, wearing {armor} and wielding {weapon}. They grew up in a {biome} {settlement}. They are motivated by {motivation}. They try to live a {hope} life and face conflict for {fear}.\n'
   ];
   gen_data['first_name'] = [
     'Geriya',
