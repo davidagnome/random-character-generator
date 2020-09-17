@@ -5,12 +5,17 @@
 		<link rel="stylesheet" href="character_style.css">
 	</head>
 	<body>
-		<header><h1>Random Character Generator</h1></header>
+		<header>
+			<a href="#" class="logo">🎲</a>
+			<a href="#" class="button">Random Character Generator</a>
+		</header>
 		<form method="get" onsubmit="return false;" class="container">
 			<div class="row">
 				<div class="col-lg-6">
 					<h2>Five Characters</h2>
-					<p><textarea id="output" cols="100" rows="5" readonly></textarea></p>
+					<div class="input-group fluid">
+						<textarea id="output" cols="100" rows="5" wrap="hard" class="fluid" readonly></textarea>
+					</div>
 					<p><input type="button" value="Generate 5 Character Biographies" onclick="more_random('');" /></p>
 				</div>
 				<div class="col-lg-6">

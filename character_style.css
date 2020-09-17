@@ -85,11 +85,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 h1 {
-  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));
+  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));
 }
 
 h2 {
-  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));
+  font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));
 }
 
 h3 {
@@ -1039,7 +1039,8 @@ button.large, [type="button"].large, [type="submit"].large, [type="reset"].large
 :root {
   --header-back-color: rgba(0,0,0,0.8);
   --header-hover-back-color: #e5e9f0;
-  --header-fore-color: #f5f5f7;
+  --header-fore-color: #aeaeae;
+  --header-hover-fore-color: #ffffff;
   --header-border-color: #e5e9f0;
   --nav-back-color: #eceff4;
   --nav-hover-back-color: #e5e9f0;
@@ -1083,18 +1084,18 @@ header button, header [type="button"], header .button, header [role="button"] {
   position: relative;
   top: calc(0rem - var(--universal-padding) / 4);
   height: calc(3.1875rem + var(--universal-padding) / 2);
-  background: var(--header-back-color);
+  background: rgba(0,0,0,0);
   line-height: calc(3.1875rem - var(--universal-padding) * 1.5);
   text-align: center;
   color: var(--header-fore-color);
   border: 0;
   border-radius: 0;
   margin: 0;
-  text-transform: uppercase;
 }
 
 header button:hover, header button:focus, header [type="button"]:hover, header [type="button"]:focus, header .button:hover, header .button:focus, header [role="button"]:hover, header [role="button"]:focus {
-  background: var(--header-hover-back-color);
+  background: rgba(0,0,0,0);
+  color: var(--header-hover-fore-color);
 }
 
 nav {
