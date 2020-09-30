@@ -2168,3 +2168,8 @@ span.icon-user {
     overflow: hidden !important;
   }
 }
+
+textarea#output {
+  min-height: 30rem;
+  resize: vertical;
+}

@@ -96,7 +96,7 @@ function more_random(){
     var a=document.getElementById("output"),b=parseInt(a.rows);
     if(b<1)b=1;
     b=generate_list("main",b);
-    a.value=b.join("\n")
+    a.value=b.join("\n");
 };
 
 
@@ -123,6 +123,15 @@ function more_weapon(){
     b=generate_list("weapon",b);
     a.value=b.join("\n")
 };
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function more_armor(){
+    var a=document.getElementById("armor"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("armor",b);
+    a.value=b.join("\n")
+};
+
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function more_biome(){

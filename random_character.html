@@ -14,7 +14,7 @@
 				<div class="col-lg-6">
 					<h2>Five Characters</h2>
 					<div class="input-group fluid">
-						<textarea id="output" cols="100" rows="5" wrap="hard" class="fluid" readonly></textarea>
+						<textarea id="output" cols="100" rows="5" wrap="hard" class="fluid"></textarea>
 					</div>
 					<p><input type="button" value="Generate 5 Character Biographies" onclick="more_random('');" /></p>
 				</div>
@@ -34,6 +34,11 @@
 						<label>Weapon</label>
 						<textarea id="weapon" cols="100" rows="1"></textarea>
 						<input type="button" value="Weapon" onclick="more_weapon('');" />
+					</div>
+					<div class="input-group fluid">
+						<label>Armor</label>
+						<textarea id="armor" cols="100" rows="1"></textarea>
+						<input type="button" value="Armor" onclick="more_armor('');" />
 					</div>
 					<div class="input-group fluid">
 						<label>Biome</label>
@@ -64,7 +69,7 @@
 				<div class="col-lg-12">
 					<h2>Randomize All</h2>
 					<p>
-						<input type="button" value="Randomize All" onclick="more_random('') + more_gender('') + more_archetype('') + more_weapon('') + more_biome('') + more_settlement('') + more_motivation('') + more_hope('') + more_fear('');" />
+						<input type="button" value="Randomize All" onclick="more_random('') + more_gender('') + more_archetype('') + more_weapon('') + more_armor('') + more_biome('') + more_settlement('') + more_motivation('') + more_hope('') + more_fear('');" />
 					</p>
 				</div>
 			</div>
