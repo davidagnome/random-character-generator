@@ -105,6 +105,7 @@ function more_plot(){
     var a=document.getElementById("plot_output"),b=parseInt(a.rows);
     if(b<1)b=1;
     b=generate_list("plots",b);
+    b=JSON.parse(JSON.stringify(b));
     a.value=b.join("\n\n");
 };
 

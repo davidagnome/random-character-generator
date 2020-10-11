@@ -1416,7 +1416,6 @@ gen_data['plots'] = [
 	'{distress_plot}',
 	'{treasure_plot}',
 	'{crime_plot}',
-	'{vignette_plot}',
 	'{political_plot}'
 ];
 
@@ -1430,28 +1429,27 @@ gen_data['dream_plot'] = [
 
 gen_data['distress_plot'] = [
 	'A {archetype}\'s {relationships} has gone missing. The only clue is the closest {biome} {settlement}.',
-	'In town, an {archetype} hands you a {short_document} from a {settlement} outside {faerun_cities}. A {archetype} {distress_type} a {crime_type}.'
+	'In town, an {archetype} hands you a {short_document} from a {settlement} outside {faerun_cities}. A {archetype} {distress_type} a {crime_type}.',
+	'A {fear} {archetype} {distress_type} a {settlement}'
 ];
 
 gen_data['treasure_plot'] = [
 	'Go to the {biome} {settlement}. Head {cardinal_directions} by {number} {units}. Look for {object}.',
-	'{admonition} a {tarot_arcana}. They will know whether to head {cardinal_directions}.'
+	'{admonition} a {tarot_arcana}. They will know whether to head {cardinal_directions}.',
+	'You hear a {archetype} in a tavern talk in hushed tones about a {valuable_objects} and {valuable_objects} outside a {settlement} {number} {units} {cardinal_directions} of here.'
 ];
 
 gen_data['crime_plot'] = [
 	'A criminal offers you work on their last {crime_type}. This job is in {faerun_cities}. Your target is a {archetype} with ties to {faerun_organization}.',
 	'A {noise} around {time_of_day}. Locals say a {crime_type} has taken place in a nearby {settlement}.',
-	'This is no ordinary {crime_type}. The target is surprisingly {hope} with an intense desire to {motivation}.'
-];
-
-gen_data['vignette_plot'] = [
-	'Once upon a time...',
-	'Under an overwhelming sense of {fear}, ...'
+	'This is no ordinary {crime_type}. The target is surprisingly {hope} with an intense desire to {motivation}.',
+	'Rumors circle that a {archetype} is looking for someone for a {crime_type}.'
 ];
 
 gen_data['political_plot'] = [
-	'A {political_conflict} between {faerun_region} and {faerun_region}.',
-	'A {settlement} in {faerun_region} begs for aid as a {political_conflict}.'
+	'News arrives that a {political_conflict} between {faerun_region} and {faerun_region}.',
+	'{faerun_cities} begs for aid as a {political_conflict}.',
+	'The {group} arrive in {faerun_region}.'
 ];
 
 gen_data['political_conflict'] = [
@@ -1463,6 +1461,7 @@ gen_data['political_conflict'] = [
 	'arcane disaster hits',
 	'tournament begins',
 	'meteor lands',
+	'a ruler dies',
 	'disputed claim to succession',
 	'{cultural_adjective} {military_unit} {military_verb}',
 	'cult of {faerun_gods} emerges',
@@ -1508,8 +1507,19 @@ gen_data['cultural_adjective'] = [
 	'orc',
 	'gnomish',
 	'planar'
-]
+];
 
+gen_data['group']  = [
+	'{social_unit}',
+	'{military_unit}'
+];
+
+
+gen_data['social_unit']  = [
+	'{faerun_region} refugees',
+	'{faerun_gods} pilgrims',
+	'{cultural_adjective} peasants'
+];
 
 gen_data['military_unit'] = [
 	'army',
@@ -1518,7 +1528,7 @@ gen_data['military_unit'] = [
 	'horde',
 	'siege force',
 	'division'
-]
+];
 
 gen_data['military_verb'] = [
 	'marshalls',
@@ -1535,7 +1545,7 @@ gen_data['admonition'] = [
 	'Fear',
 	'Follow',
 	'Worship'
-]
+];
 
 gen_data['time_of_day'] = [
 	'midnight',
@@ -1544,7 +1554,7 @@ gen_data['time_of_day'] = [
 	'morning',
 	'sunset',
 	'sunrise'
-]
+];
 
 gen_data['relationships'] = [
 	'child',
@@ -1580,7 +1590,7 @@ gen_data['time_of_year'] = [
 	'meteor shower',
 	'solstice',
 	'equinox'
-]
+];
 
 gen_data['direction'] = [
 	'above',
