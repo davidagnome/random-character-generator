@@ -1296,4 +1296,154 @@ gen_data['ethnicity'] = {
     '132':  'depression'
   };
 
+gen_data['faerun_region'] = [
+    'Icewind Dale',
+    'the Sword Coast',
+    'the Silver Marches',
+    'Amn',
+    'Calimshan',
+    'Tethyr',
+    'Thindol',
+    'Samarach',
+    'Anauroch',
+    'Cormyr',
+    'Sembia',
+    'Impiltur',
+    'Damara',
+    'Vaasa',
+    'Narfell',
+    'the Great Dale',
+    'the Endless Wastes',
+    'Thay',
+    'Algarond',
+    'Altumbel',
+    'Mulhorand',
+    'Unther',
+    'Chessenta',
+    'Chondath',
+    'the Shar',
+    'Halruaa',
+    'Lapaliiya',
+    'Dambrath',
+    'Estagund',
+    'Dambrath',
+    'Durpar',
+    'Lantan',
+    'the Moonshae Isles',
+    'the Pirate Isles',
+    'Murghom'
+};
+
+gen_data['faerun_cities'] = [
+    'Waterdeep',
+    'Luskan',
+    'Neverwinter',
+    'Mirabar',
+    'Longsaddle',
+    'Yartar',
+    'Triboar',
+    'Red Larch',
+    'Daggerford',
+    'Nesme',
+    'Silverymoon',
+    'Everlund',
+    'Sundabar',
+    'Ascore',
+    'Mothral Hall',
+    'Griffon\'s Nest'
+};
+
+gen_data['plots'] = {
+	'{dream_plot}',
+	'{distress_plot}',
+	'{treasure_plot}',
+	'{crime_plot}',
+	'{vignette_plot}'
+	'{political_plot}',
+	''
+};
+
+
+gen_data['dream_plot'] {
+	'In dreams, you find yourself in a {biome} {settlement}, a {descriptor} {tarot} rests {direction}.',
+	'As soon as your eyes closes, you see a {archetype} holding {object}. You feel as if they {motivation}.',
+	'You wake in a cold sweat. '
+};
+
+
+gen_data['direction'] {
+	'above',
+	'below',
+	'to the left',
+	'to the right',
+	'behind',
+	'in front'
+}
+
+gen_data['descriptor'] = {
+	'blood-red',
+	'featureless',
+	'arachnid',
+	'putrid'
+};
+
+gen_data['tarot'] = {
+	'Magician',
+	'High Priestess',
+	'Empress',
+	'Hierophant',
+	'Lover',
+	'Chariot',
+	'Hermit',
+	'Great Wheel',
+	'Justicar',
+	'Hanged Person',
+	'Reaper',
+	'Temperance',
+	'Devil',
+	'Tower',
+	'Star',
+	'Moon',
+	'Sun',
+	'Judge',
+	'World',
+	'Fool',
+	'King',
+	'Queen',
+	'Knight',
+	'Page'
+};
+
+gen_data['verb'] = {
+	'dancing',
+	'carving',
+	'singing',
+	'fighting',
+	'sleeping',
+	'eating',
+	'spying',
+	'harvesting',
+	'running',
+	'walking',
+	'crawling',
+	'jumping',
+	'drinking'
+};	
+
+gen_data['object'] = {
+	'a pearl',
+	'a gemstone',
+	'gold',
+	'{weapon}',
+	'{armor}',
+	'{food}'
+};	
+
+gen_data['food'] = {
+'mushrooms',
+'field greens'
+'bundled herbs'
+'a leg of lamb'
+};
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

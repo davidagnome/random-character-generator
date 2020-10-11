@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Random Character Generator Generator</title>
-		<link rel="stylesheet" href="character_style.css">
+		<title>Random Generators - Character</title>
+		<link rel="stylesheet" href="random_style.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<header>
 			<a href="#" class="logo">🎲</a>
-			<a href="#" class="button">Random Character Generator</a>
+			<a href="#" class="button">Random Generators</a>
+			<a href="random_character.html">Characters</a>
+			<a href="random_journey.html">Journey</a>
 		</header>
 		<form method="get" onsubmit="return false;" class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h2>Five Characters</h2>
+					<h2>The Monomyth</h2>
 					<div class="input-group fluid">
 						<textarea id="output" cols="100" rows="5" wrap="hard" class="fluid"></textarea>
 					</div>
@@ -77,7 +80,7 @@
 		<footer>
 			<p>based on public domain source code by drow (drow@bin.sh). no implication of endorsement. See http://creativecommons.org/publicdomain/zero/1.0/</p>
 		</footer>
-		<script type="text/javascript" src="character_generator.js"></script>
-		<script type="text/javascript" src="character_data.js"></script>
+		<script type="text/javascript" src="random_generator.js"></script>
+		<script type="text/javascript" src="random_data.js"></script>
 	</body>
 </html>
