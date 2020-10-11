@@ -306,7 +306,8 @@
     'villa',
     'valley',
     'ruin',
-    'druid circle'
+    'druid circle',
+    'prison'
   ];
   gen_data['gender'] = [
     'cismale',
@@ -694,21 +695,21 @@ gen_data['ethnicity'] = {
 '355':  'cantor',
 '356':  'cardinal',
 '357':  'chaplain',
-'358':  'cleric',
+'358':  'cleric of {faerun_gods}',
 '359':  'confessor',
-'360':  'cultist',
+'360':  'cultist of {faerun_gods}',
 '361':  'cult leader',
 '362':  'deacon',
 '363':  'diviner',
 '364':  'exorcist',
-'365':  'high priest/pope',
+'365':  'high priest of {faerun_gods}',
 '366':  'inquisitor',
-'367':  'missionary',
+'367':  'missionary of {faerun_gods}',
 '368':  'monk',
 '369':  'nun',
-'370':  'paladin',
+'370':  'paladin of {faerun_gods}',
 '371':  'pardoner',
-'372':  'priest',
+'372':  'priest/priestess of {faerun_gods}',
 '373':  'prophet',
 '374':  'sexton',
 '375':  'templar',
@@ -1354,12 +1355,12 @@ gen_data['faerun_cities'] = [
 ];
 
 gen_data['faerun_organization'] = {
-	'1':	'Harper\s',
-	'2':	'Order of the Gaunlet',
-	'3':	'Emerald Enclave',
-	'4':	'Lords\' Alliance',
-	'5':	'Zhentarim',
-	'6-15':	'{faerun_gods}'
+	'01':	'Harper\s',
+	'02':	'Order of the Gaunlet',
+	'03':	'Emerald Enclave',
+	'04':	'Lords\' Alliance',
+	'05':	'Zhentarim',
+	'06-15':	'{faerun_gods}'
 };
 
 gen_data['faerun_gods'] = [
@@ -1421,14 +1422,15 @@ gen_data['plots'] = [
 
 
 gen_data['dream_plot'] = [
-	'In dreams, you find yourself in a {biome} {settlement}, a {descriptor} {tarot_arcana} rests {direction}.',
-	'As soon as your eyes closes, you see a {archetype} holding {object}. You sense that they seek to {motivation}.',
-	'You wake in a cold sweat. Feelings of {fear} cloud your mind.'
+	'Dreaming, you find yourself in a {biome} {settlement}, a {descriptor} {tarot_arcana} rests {direction}.',
+	'As your eyes close, you see a {archetype} holding {object}. You sense that they seek to {motivation}.',
+	'You wake in a cold sweat. Feelings of {fear} cloud your mind.',
+	'An image of {faerun_gods} appears. It commands you to {motivation} in {faerun_region}.'
 ];
 
 gen_data['distress_plot'] = [
 	'A {archetype}\'s {relationships} has gone missing. The only clue is the closest {biome} {settlement}.',
-	'In town, an {archetype} hands you a {short_document} from a {settlement} outside {faerun_cities}. In it you read of {archetype}\'s desperation after a sudden {crime_type}.'
+	'In town, an {archetype} hands you a {short_document} from a {settlement} outside {faerun_cities}. A {archetype} {distress_type} a {crime_type}.'
 ];
 
 gen_data['treasure_plot'] = [
@@ -1437,9 +1439,9 @@ gen_data['treasure_plot'] = [
 ];
 
 gen_data['crime_plot'] = [
-	'A criminal offers you work on their last {crime_type}. This job is in {faerun_cities}. Your target is a {archetype} with ties to the {faerun_organization}.',
-	'Screams ring out at {time_of_day}. Locals say a {crime_type} has taken place at the nearby {settlement}.',
-	'This is no ordinary {crime_type}. The target is suprisingly {hope} with an intense desire to {motivation}.'
+	'A criminal offers you work on their last {crime_type}. This job is in {faerun_cities}. Your target is a {archetype} with ties to {faerun_organization}.',
+	'A {noise} around {time_of_day}. Locals say a {crime_type} has taken place in a nearby {settlement}.',
+	'This is no ordinary {crime_type}. The target is surprisingly {hope} with an intense desire to {motivation}.'
 ];
 
 gen_data['vignette_plot'] = [
@@ -1449,7 +1451,7 @@ gen_data['vignette_plot'] = [
 
 gen_data['political_plot'] = [
 	'A {political_conflict} between {faerun_region} and {faerun_region}.',
-	'A nearby {settlment} begs for aid as a {political_conflict}.'
+	'A {settlement} in {faerun_region} begs for aid as a {political_conflict}.'
 ];
 
 gen_data['political_conflict'] = [
@@ -1465,7 +1467,22 @@ gen_data['political_conflict'] = [
 	'{cultural_adjective} {military_unit} {military_verb}',
 	'cult of {faerun_gods} emerges',
 	'herectic of {faerun_gods} damages the faith',
-	'economic crisis'
+	'economic calamity hits',
+	'a ruler\'s {crime_type} threatens a diplomatic incident'
+];
+
+gen_data['distress_type'] = [
+	'seeks aid after',
+	'plots',
+	'prepares against',
+	'witnessed'
+];
+
+gen_data['noise'] = [
+	'scream rings out',
+	'commotion develops',
+	'scene forms',
+	'yell echoes'
 ];
 
 gen_data['crime_type'] = [
@@ -1477,7 +1494,8 @@ gen_data['crime_type'] = [
 	'heist',
 	'murder',
 	'kidnapping',
-	'ransom'
+	'ransom',
+	'extortion'
 ];
 
 gen_data['cultural_adjective'] = [
