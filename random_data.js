@@ -834,98 +834,98 @@ gen_data['ethnicity'] = {
   ];
   gen_data['motivation'] = {
 '1':  'dominate another',
-'2':  'reaching spiritual enlightenment',
-'3':  'avoiding death',
-'4':  'avoiding poverty',
-'5':  'curing their disease',
-'6':  'developing into a leader',
-'7':  'becoming the sole power',
-'8':  'acceptance from other',
-'9':  'appreciation from friends and family',
-'10':   'philanthropy',
-'11':   'competiveness',
-'12':   'tearing down the old beliefs',
-'13':   'caring for an aging parent',
-'14':   'continuing a legacy',
-'15':   'defeating an antagonist',
-'16':   'delivering pain to someone',
-'17':   'maintaining their wits',
-'18':   'controlling others',
-'19':   'managing an illness',
-'20':   'overcoming perceived mistake',
-'21':   'creating or discovering something important',
-'22':   'dealing with bullies',
-'23':   'finding themself',
-'24':   'doing the right thing',
-'25':   'creating a new identity',
-'26':   'escaping a life of crime and danger',
-'27':   'escaping murderers',
-'28':   'escaping confinement',
-'29':   'escaping danger',
-'30':   'finding a home',
-'31':   'defeating colonizers',
-'32':   'escaping widespread disaster',
-'33':   'evading responsibility',
-'34':   'building a family, whether chosen or birth',
-'35':   'finding a lifelong partner',
-'36':   'finding friendship or companionship',
-'37':   'finding their calling in life',
-'38':   'finding something lost',
-'39':   'fitting in',
-'40':   'creating societal change',
-'41':   'religious conversion',
-'42':   'forgiving oneself',
-'43':   'gaining control over their own life',
-'44':   'getting revenge',
-'45':   'abandoning a child',
-'46':   'having a child',
-'47':   'having it all',
-'48':   'helping a loved one recognize they are hurting themselves and others',
-'49':   'keeping what one has no matter what',
-'50':   'learning to trust again',
-'51':   'making someone proud',
-'52':   'finding stability in changing home life',
-'53':   'obliterating an enemy',
-'54':   'obsession for a person or thing',
-'55':   'obtaining glory whatever the cost',
-'56':   'survival from the elements',
-'57':   'finding themselves after abuse',
-'58':   'overcoming addiction',
-'59':   'overcoming their deepest fear',
-'60':   'overcoming a fear',
-'61':   'defeating good with evil',
-'62':   'profiteering',
-'63':   'sowing chaos',
-'64':   'protecting loved ones',
-'65':   'fortifying their homelands',
-'66':   'providing for family',
-'67':   'protecting future generations',
-'68':   'proving someone wrong',
-'69':   'pursuing their passions',
-'70':   'pursuing a toxic desire',
-'71':   'pursuing justice',
-'72':   'pursuing expertise in a skill',
-'73':   'fulfilling their a hidden dream',
-'74':   'reconciling with estranged loved ones',
-'75':   'repaying a debt',
-'76':   'rescuing someone from who or what binds them',
-'77':   'independence',
-'78':   'restoring their name and reputation',
-'79':   'righting a deep wrong',
-'80':   'ruining a reputation',
-'81':   'saving their community',
-'82':   'seeking death',
-'83':   'serving others',
-'84':   'solving a riddle',
-'85':   'stopping an a prophesied event',
-'86':   'supporting oneself financially',
-'87':   'surviving loss',
-'88':   'surviving the death of a loved one',
-'89':   'taking what one is owed',
-'90':   'exploring the unknown',
+'2':  'reach spiritual enlightenment',
+'3':  'avoid death',
+'4':  'avoid poverty',
+'5':  'cure their disease',
+'6':  'develop into a leader',
+'7':  'become the sole power',
+'8':  'accept from others',
+'9':  'appreciate friends and family',
+'10':   'share their wealth',
+'11':   'compete',
+'12':   'tear down the old ways',
+'13':   'care for an aging parent',
+'14':   'continue a legacy',
+'15':   'defeat an antagonist',
+'16':   'cause pain to someone',
+'17':   'maintain their wits',
+'18':   'control others',
+'19':   'manage an illness',
+'20':   'overcome perceived mistakes',
+'21':   'dsicover something important',
+'22':   'deal with bullies',
+'23':   'find themself',
+'24':   'do the right thing',
+'25':   'create a new identity',
+'26':   'escape a life of crime and danger',
+'27':   'escape murderers',
+'28':   'escape confinement',
+'29':   'escape danger',
+'30':   'find a home',
+'31':   'defeat colonizers',
+'32':   'escape widespread disaster',
+'33':   'evade responsibility',
+'34':   'build a family, whether chosen or birth',
+'35':   'find a lifelong partner',
+'36':   'find friendship or companionship',
+'37':   'find their calling in life',
+'38':   'find something lost',
+'39':   'fit in',
+'40':   'create societal change',
+'41':   'deepen their religious conversion',
+'42':   'forge oneself',
+'43':   'gain control over their own life',
+'44':   'get revenge',
+'45':   'abandon a child',
+'46':   'have a child',
+'47':   'have it all',
+'48':   'help a loved one recognize they are hurting those around them',
+'49':   'keep what one has no matter what',
+'50':   'learn to trust again',
+'51':   'make someone proud',
+'52':   'find stability in changing home life',
+'53':   'obliterate an enemy',
+'54':   'obsess for a person or thing',
+'55':   'obtain glory whatever the cost',
+'56':   'survive the elements',
+'57':   'find themself after abuse',
+'58':   'overcome addiction',
+'59':   'overcome their deepest fear',
+'60':   'overcome a fear',
+'61':   'defeat good with evil',
+'62':   'profiteer',
+'63':   'sow chaos',
+'64':   'protect loved ones',
+'65':   'fortify their homeland',
+'66':   'provide for family',
+'67':   'protect future generations',
+'68':   'prove someone wrong',
+'69':   'pursue their passions',
+'70':   'pursue a toxic desire',
+'71':   'pursue justice',
+'72':   'pursue expertise in a skill',
+'73':   'fulfill their a hidden dream',
+'74':   'reconcile with estranged loved ones',
+'75':   'repay a debt',
+'76':   'rescue someone from who or what binds them',
+'77':   'gain independence',
+'78':   'restore their name and reputation',
+'79':   'right a deep wrong',
+'80':   'ruin a reputation',
+'81':   'save their community',
+'82':   'seek death',
+'83':   'serve others',
+'84':   'solve a riddle',
+'85':   'stop an a prophesied event',
+'86':   'support oneself financially',
+'87':   'survive loss',
+'88':   'survive the death of a loved one',
+'89':   'take what one is owed',
+'90':   'explore the unknown',
 '91':   'succeed where they have failed before',
-'92':   'fulfilling a geas or curse',
-'93':   'winning a competition'
+'92':   'fulfill a geas or curse',
+'93':   'win a competition'
   };
   gen_data['hope'] = {
     '1':  'accessible',
@@ -1332,7 +1332,7 @@ gen_data['faerun_region'] = [
     'the Moonshae Isles',
     'the Pirate Isles',
     'Murghom'
-};
+];
 
 gen_data['faerun_cities'] = [
     'Waterdeep',
@@ -1351,43 +1351,264 @@ gen_data['faerun_cities'] = [
     'Ascore',
     'Mothral Hall',
     'Griffon\'s Nest'
+];
+
+gen_data['faerun_organization'] = {
+	'1':	'Harper\s',
+	'2':	'Order of the Gaunlet',
+	'3':	'Emerald Enclave',
+	'4':	'Lords\' Alliance',
+	'5':	'Zhentarim',
+	'6-15':	'{faerun_gods}'
 };
 
-gen_data['plots'] = {
+gen_data['faerun_gods'] = [
+    'Arvandor',
+    'Corellon Larethian',
+    'Banehold',
+    'Bane',
+    'Celestia',
+    'Torm',
+    'The Deep Wilds',
+    'Silvanus',
+    'The Demonweb Pits',
+    'Lolth',
+    'The Dismal Caverns',
+    'Ghaunadaur',
+    'Dwarfhome',
+    'Moradin',
+    'Eternal Sun',
+    'Amaunator',
+    'The Fugue Plane',
+    'Kelemvor',
+    'Gates of the Moon',
+    'Selune',
+    'Sune',
+    'Green Fields',
+    'Chauntea',
+    'House of Knowledge',
+    'The Nine Hells',
+    'Asmodeus',
+    'Nishrek',
+    'Gruumsh',
+    'The Supreme Throne',
+    'Cyric',
+    'Towers of the Night',
+    'Shar',
+    'Warrior\'s Rest',
+    'Tempus',
+    'Akadi',
+    'Grumbar', 
+    'Kossuth',
+    'Istishia',
+    'Annam All-Father',
+    'Memnor',
+    'Grolantor',
+    'Skoraeus Stonebones',
+    'Surtr',
+    'Thrym'
+];
+
+
+gen_data['plots'] = [
 	'{dream_plot}',
 	'{distress_plot}',
 	'{treasure_plot}',
 	'{crime_plot}',
-	'{vignette_plot}'
-	'{political_plot}',
-	''
-};
+	'{vignette_plot}',
+	'{political_plot}'
+];
 
 
-gen_data['dream_plot'] {
-	'In dreams, you find yourself in a {biome} {settlement}, a {descriptor} {tarot} rests {direction}.',
-	'As soon as your eyes closes, you see a {archetype} holding {object}. You feel as if they {motivation}.',
-	'You wake in a cold sweat. '
-};
+gen_data['dream_plot'] = [
+	'In dreams, you find yourself in a {biome} {settlement}, a {descriptor} {tarot_arcana} rests {direction}.',
+	'As soon as your eyes closes, you see a {archetype} holding {object}. You sense that they seek to {motivation}.',
+	'You wake in a cold sweat. Feelings of {fear} cloud your mind.'
+];
+
+gen_data['distress_plot'] = [
+	'A {archetype}\'s {relationships} has gone missing. The only clue is the closest {biome} {settlement}.',
+	'In town, an {archetype} hands you a {short_document} from a {settlement} outside {faerun_cities}. In it you read of {archetype}\'s desperation after a sudden {crime_type}.'
+];
+
+gen_data['treasure_plot'] = [
+	'Go to the {biome} {settlement}. Head {cardinal_directions} by {number} {units}. Look for {object}.',
+	'{admonition} a {tarot_arcana}. They will know whether to head {cardinal_directions}.'
+];
+
+gen_data['crime_plot'] = [
+	'A criminal offers you work on their last {crime_type}. This job is in {faerun_cities}. Your target is a {archetype} with ties to the {faerun_organization}.',
+	'Screams ring out at {time_of_day}. Locals say a {crime_type} has taken place at the nearby {settlement}.',
+	'This is no ordinary {crime_type}. The target is suprisingly {hope} with an intense desire to {motivation}.'
+];
+
+gen_data['vignette_plot'] = [
+	'Once upon a time...',
+	'Under an overwhelming sense of {fear}, ...'
+];
+
+gen_data['political_plot'] = [
+	'A {political_conflict} between {faerun_region} and {faerun_region}.',
+	'A nearby {settlment} begs for aid as a {political_conflict}.'
+];
+
+gen_data['political_conflict'] = [
+	'war breaks out',
+	'trade dispute develops',
+	'illegitimate {cultural_adjective} ruler vies for power',
+	'game of ravens foments',
+	'famine develops',
+	'arcane disaster hits',
+	'tournament begins',
+	'meteor lands',
+	'disputed claim to succession',
+	'{cultural_adjective} {military_unit} {military_verb}',
+	'cult of {faerun_gods} emerges',
+	'herectic of {faerun_gods} damages the faith',
+	'economic crisis'
+];
+
+gen_data['crime_type'] = [
+	'theft',
+	'assassination',
+	'counterfeit',
+	'insurrection',
+	'con',
+	'heist',
+	'murder',
+	'kidnapping',
+	'ransom'
+];
+
+gen_data['cultural_adjective'] = [
+	'elven',
+	'undead',
+	'illithid',
+	'dwarven',
+	'human',
+	'goblin',
+	'orc',
+	'gnomish',
+	'planar'
+]
 
 
-gen_data['direction'] {
+gen_data['military_unit'] = [
+	'army',
+	'battalion',
+	'armada',
+	'horde',
+	'siege force',
+	'division'
+]
+
+gen_data['military_verb'] = [
+	'marshalls',
+	'musters',
+	'recruits',
+	'forms',
+	'stages itself',
+	'sets camp'
+]
+
+gen_data['admonition'] = [
+	'Beware',
+	'Mind',
+	'Fear',
+	'Follow',
+	'Worship'
+]
+
+gen_data['time_of_day'] = [
+	'midnight',
+	'evening',
+	'high noon',
+	'morning',
+	'sunset',
+	'sunrise'
+]
+
+gen_data['relationships'] = [
+	'child',
+	'sibling',
+	'lover',
+	'parent',
+	'neighbor',
+	'ruler'
+];
+
+gen_data['short_document'] = [
+	'letter',
+	'note',
+	'scroll',
+	'treatise'
+];
+
+gen_data['long_document'] = [
+	'journal',
+	'ledger',
+	'logbook',
+	'tome',
+	'spellbook'
+];
+
+
+gen_data['time_of_year'] = [
+	'winter',
+	'fall',
+	'spring',
+	'summer',
+	'eclipse',
+	'meteor shower',
+	'solstice',
+	'equinox'
+]
+
+gen_data['direction'] = [
 	'above',
 	'below',
 	'to the left',
 	'to the right',
 	'behind',
 	'in front'
-}
+];
 
-gen_data['descriptor'] = {
+gen_data['cardinal_directions'] = [
+	'north',
+	'south',
+	'east',
+	'west',
+	'northeast',
+	'northwest',
+	'southeast',
+	'southwest'
+]
+
+gen_data['number'] = [
+	'two',
+	'five',
+	'a dozen',
+	'ten',
+	'fifteen',
+	'one hundred'
+];
+
+gen_data['units'] = [
+	'leagues',
+	'kilometers',
+	'valleys',
+	'mountains'
+];
+
+
+gen_data['descriptor'] = [
 	'blood-red',
 	'featureless',
 	'arachnid',
 	'putrid'
-};
+];
 
-gen_data['tarot'] = {
+gen_data['tarot_arcana'] = [
 	'Magician',
 	'High Priestess',
 	'Empress',
@@ -1412,9 +1633,9 @@ gen_data['tarot'] = {
 	'Queen',
 	'Knight',
 	'Page'
-};
+]
 
-gen_data['verb'] = {
+gen_data['verb'] = [
 	'dancing',
 	'carving',
 	'singing',
@@ -1428,22 +1649,54 @@ gen_data['verb'] = {
 	'crawling',
 	'jumping',
 	'drinking'
-};	
+]	
 
-gen_data['object'] = {
-	'a pearl',
-	'a gemstone',
-	'gold',
+gen_data['object'] = [
+	'{mundane_objects}',
+	'{valuable_objects}'
+];
+
+gen_data['valuable_objects'] = [
+	'{gemstone}',
+	'an ingot of {metals}',
 	'{weapon}',
-	'{armor}',
-	'{food}'
-};	
+	'{armor}'
+];
 
-gen_data['food'] = {
+gen_data['mundane_objects'] = [
+	'a chair',
+	'{food}',
+	'a spoon'
+];
+
+gen_data['metals'] = [
+'gold',
+'silver',
+'platinum',
+'tin',
+'copper',
+'steel',
+'bronze',
+'pyrite'
+];	
+
+gen_data['gemstone'] = [
+'a diamond',
+'an opal',
+'an emerald',
+'a ruby',
+'a sapphire',
+'a topaz',
+'a quartz crystal',
+'a garnet'
+];	
+
+
+gen_data['food'] = [
 'mushrooms',
-'field greens'
-'bundled herbs'
+'field greens',
+'bundled herbs',
 'a leg of lamb'
-};
+];
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

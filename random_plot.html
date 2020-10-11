@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Random Generators - Journey</title>
+		<title>Random Generators - Plot</title>
 		<link rel="stylesheet" href="random_style.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
@@ -10,16 +10,16 @@
 			<a href="#" class="logo">🎲</a>
 			<a href="#" class="button">Random Generators</a>
 			<a href="random_character.html">Characters</a>
-			<a href="random_journey.html">Journey</a>
+			<a href="random_plot.html" class="active">Plot</a>
 		</header>
 		<form method="get" onsubmit="return false;" class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h2>Five Characters</h2>
+					<h2>Five Random Plots</h2>
 					<div class="input-group fluid">
-						<textarea id="output" cols="100" rows="1" wrap="hard" class="fluid"></textarea>
+						<textarea id="plot_output" cols="100" rows="5" wrap="hard" class="fluid"></textarea>
 					</div>
-					<p><input type="button" value="Generate another journey" onclick="more_random('');" /></p>
+					<p><input type="button" value="Generate another journey" onclick="more_plot('');" /></p>
 				</div>
 			</div>
 		</form>
