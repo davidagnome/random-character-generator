@@ -2173,3 +2173,7 @@ textarea#output {
   min-height: 30rem;
   resize: vertical;
 }
+
+textarea::first-letter {
+  text-transform: uppercase;
+}

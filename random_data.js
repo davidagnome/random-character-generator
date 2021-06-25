@@ -696,19 +696,19 @@ gen_data['ethnicity'] = {
 '355':  'cantor',
 '356':  'cardinal',
 '357':  'chaplain',
-'358':  'cleric of {faerun_gods}',
+'358':  'cleric',
 '359':  'confessor',
-'360':  'cultist of {faerun_gods}',
+'360':  'cultist',
 '361':  'cult leader',
 '362':  'deacon',
 '363':  'diviner',
 '364':  'exorcist',
-'365':  'high priest of {faerun_gods}',
+'365':  'high priest',
 '366':  'inquisitor',
-'367':  'missionary of {faerun_gods}',
+'367':  'missionary',
 '368':  'monk',
 '369':  'nun',
-'370':  'paladin of {faerun_gods}',
+'370':  'paladin',
 '371':  'pardoner',
 '372':  'priest/priestess of {faerun_gods}',
 '373':  'prophet',
@@ -1739,52 +1739,66 @@ gen_data['sites'] = {
 };
 
 gen_data['eriador'] = [
-  'The site lies {number} {units} {cardinal_directions} of {eriador_site}. It is a {site_occupancy} {ruin} by {eriador_factions}. It remains {site_condition}.',
-  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {eriador_site}.',
-  'You have heard {tale_synonyms} of this {site_condition} {ruin} near {eriador_site} mention that it was {site_history}.',
-  'Locals from nearby {eriador_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {eriador_factions}.'
+  'The site {site_position} {number} {units} {cardinal_directions} of {eriador_site}. It is a {site_occupancy} {ruin} by {eriador_factions}. It remains {site_condition}.',
+  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {eriador_site}.',
+  'You have heard {tale_synonyms} of this {site_condition} {ruin} near {eriador_site} saying that it was {site_history}.',
+  'A {archetype} from nearby {eriador_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {eriador_factions}.',
+  '{sindarin_combo} is a {site_occupancy} {ruin} by {eriador_factions} near {eriador_site}.',
+  'In a {ruin} lived {eriador_factions} or so the {tale_synonyms} from a {eriador_site} {archetype} goes...'
 ];
 
 gen_data['rhovanion'] = [
-  'The site lies {number} {units} {cardinal_directions} of {rhovanion_site}. It is a {site_occupancy} {ruin} by {rhovanion_factions}. It remains {site_condition}.',
-  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {rhovanion_site}.',
-  'You have heard {tale_synonyms} of this {site_condition} {ruin} near {rhovanion_site} mention that it was {site_history}.',
-  'Locals from nearby {rhovanion_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {rhovanion_factions}.'
+  'The site {site_position} {number} {units} {cardinal_directions} of {rhovanion_site}. It is a {site_occupancy} {ruin} by {rhovanion_factions}. It remains {site_condition}.',
+  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {rhovanion_site}.',
+  'You have heard {tale_synonyms} of this {site_condition} {ruin} near {rhovanion_site} saying that it was {site_history}.',
+  'A {archetype} from nearby {rhovanion_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {rhovanion_factions}.',
+  '{sindarin_combo} is a {site_occupancy} {ruin} by {rhovanion_factions} near {rhovanion_site}.',
+  'In a {ruin} lived {rhovanion_factions} or so the {tale_synonyms} from a {rhovanion_site} {archetype} goes...'
 ];
 
 gen_data['gondor'] = [
-  'The site lies {number} {units} {cardinal_directions} of {gondor_site}. It is a {site_occupancy} {ruin} by {gondor_factions} It remains {site_condition}.',
+  'The site {site_position} {number} {units} {cardinal_directions} of {gondor_site}. It is a {site_occupancy} {ruin} by {gondor_factions}. It remains {site_condition}.',
   'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {gondor_site}.',
-  'You heard {tale_synonyms} of this {site_condition} {ruin} near {gondor_site} mention that it was {site_history}.',
-  'Locals from nearby {gondor_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {gondor_factions}.'
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {gondor_site} saying that it was {site_history}.',
+  'A {archetype} from nearby {gondor_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {gondor_factions}.',
+  '{sindarin_combo} is a {site_occupancy} {ruin} by {gondor_factions} near {gondor_site}.',
+  'In a {ruin} lived {gondor_factions} or so the {tale_synonyms} from a {gondor_site} {archetype} goes...'
 ];
 
 gen_data['lindon'] = [
-  'The site lies {number} {units} {cardinal_directions} of {lindon_site}. It is a {site_occupancy} {ruin} by {lindon_factions} It remains {site_condition}.',
-  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {lindon_site}.',
-  'You heard {tale_synonyms} of this {site_condition} {ruin} near {lindon_site} mention that it was {site_history}.',
-  'Locals from nearby {lindon_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {lindon_factions}.'
+  'The site {site_position} {number} {units} {cardinal_directions} of {lindon_site}. It is a {site_occupancy} {ruin} by {lindon_factions}. It remains {site_condition}.',
+  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {lindon_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {lindon_site} saying that it was {site_history}.',
+  'A {archetype} from nearby {lindon_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {lindon_factions}.',
+  '{sindarin_combo} is a {site_occupancy} {ruin} by {lindon_factions} near {lindon_site}.',
+  'In a {ruin} lived {lindon_factions} or so the {tale_synonyms} from a {lindon_site} {archetype} goes...'
 ];
 
 gen_data['harad'] = [
-  'The site lies {number} {units} {cardinal_directions} of {harad_site}. It is a {site_occupancy} {ruin} by {harad_factions} It remains {site_condition}.',
-  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {harad_site}.',
-  'You heard {tale_synonyms} of this {site_condition} {ruin} near {harad_site} mention that it was {site_history}.',
-  'Locals from nearby {harad_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {harad_factions}.'
+  'The site {site_position} {number} {units} {cardinal_directions} of {harad_site}. It is a {site_occupancy} {ruin} by {harad_factions}. It remains {site_condition}.',
+  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {harad_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {harad_site} saying that it was {site_history}.',
+  'A {archetype}  from nearby {harad_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {harad_factions}.',
+  '{sindarin_combo} is a {site_occupancy} {ruin} by {harad_factions} near {harad_site}.',
+  'In a {ruin} lived {harad_factions} or so the {tale_synonyms} from a {harad_site} {archetype} goes...'
 ];
 
 gen_data['rhun'] = [
-  'The site lies {number} {units} {cardinal_directions} of {rhun_site}. It is a {site_occupancy} {ruin} by {rhun_factions}. It remains {site_condition}.',
-  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {rhun_site}.',
-  'You heard {tale_synonyms} of this {site_condition} {ruin} near {rhun_site} mention that it was {site_history}.',
-  'Locals from nearby {rhun_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {rhun_factions}.'
+  'The site {site_position} {number} {units} {cardinal_directions} of {rhun_site}. It is a {site_occupancy} {ruin} by {rhun_factions}. It remains {site_condition}.',
+  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {rhun_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {rhun_site} saying that it was {site_history}.',
+  'A {archetype} from nearby {rhun_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {rhun_factions}.',
+  '{sindarin_combo} is a {site_occupancy} {ruin} by {rhun_factions} near {rhun_site}.',
+  'In a {ruin} lived {rhun_factions} or so the {tale_synonyms} from a {rhun_site} {archetype} goes...'
 ];
 
 gen_data['mordor'] = [
-  'The site lies {number} {units} {cardinal_directions} of {mordor_site}. It is a {site_occupancy} {ruin} by {mordor_factions}. It remains {site_condition}.',
-  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in the nearby {mordor_site}.',
-  'You heard {tale_synonyms} of this {site_condition} {ruin} near {mordor_site} mention that it was {site_history}.',
-  'Locals from nearby {mordor_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {mordor_factions}.'
+  'The site {site_position} {number} {units} {cardinal_directions} of {mordor_site}. It is a {site_occupancy} {ruin} by {mordor_factions}. It remains {site_condition}.',
+  '{built_synonyms} in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in the nearby {mordor_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {mordor_site} saying that it was {site_history}.',
+  'A {archetype} from nearby {mordor_site} says this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to {mordor_factions}.',
+  '{sindarin_combo} is a {site_occupancy} {ruin} by {mordor_factions} near {mordor_site}.',
+  'In a {ruin} lived {mordor_factions} or so the {tale_synonyms} from a {mordor_site} {archetype} goes...'
 ];
 
 gen_data['tale_synonyms'] = [
@@ -1792,20 +1806,35 @@ gen_data['tale_synonyms'] = [
   'stories',
   'tales',
   'legends',
-  'rumors',
   'whispers',
-  'riddles in the dark',
+  'riddles',
   'songs',
-  'idle-gossip'
+  'idle-gossip',
 ];
 
+gen_data['built_synonyms'] = [
+  'Built',
+  'Founded',
+  'Constructed',
+  'Crafted',
+  'Destroyed',
+  'Ruined'
+];
+
+gen_data['site_position'] = [
+  'lies',
+  'sits',
+  'rests',
+  'falls',
+  'hides'
+];
 
 gen_data['eriador_site'] = [
   'Bree',
   'Shire',
   'North Downs',
   'Gray Havens',
-  'The Last Homely House',
+  'Rivendell',
   'Lone Lands',
   'Forochel',
   'Lake Evendim',
@@ -1838,18 +1867,18 @@ gen_data['eriador_factions'] = [
   'Wardens of Annuminas',
   'the Grey Company',
   'free people of Dunland',
-  'Theodred\' riders',
+  'Theodred\'s riders',
   'the Council of the North',
   'Thorin\'s Hall'
 ];
 
 gen_data['rhovanion_site'] = [
   'Mirkwood',
-  'the Lonely Mountain',
-  'the Dales',
+  'Lonely Mountain',
+  'Dale',
   'Laketown',
   'Rohan',
-  'the Iron Hills',
+  'Iron Hills',
   'Wilderland'
 ];
 
@@ -1881,7 +1910,7 @@ gen_data['gondor_site'] = [
   'Pinnath Gelin',
   'Anfalas (Langstrand)',
   'the river Lefnui',
-  'the rive Morthond',
+  'the river Morthond',
   'Dol Amroth',
   'Ethring'
 ];
@@ -1898,7 +1927,16 @@ gen_data['gondor_factions'] = [
 
 gen_data['lindon_site'] = [
   'Forlindon',
-  'the river Forlond',
+  'river Forlond',
+  'Ered Luin, the Blue Mountains',
+  'Gulf of Lune',
+  'river Harlond',
+  'Harlindon'
+];
+
+gen_data['lindon_factions'] = [
+  'Forlindon',
+  'river Forlond',
   'Ered Luin, the Blue Mountains',
   'Gulf of Lune',
   'the river Harlond',
@@ -1913,8 +1951,8 @@ gen_data['harad_site'] = [
   'Far Harad',
   'Umbar',
   'City of the Corsairs',
-  'the havens of Umbar',
-  'the Harad Road'
+  'havens of Umbar',
+  'Harad Road'
 ];
 
 gen_data['harad_factions'] = [
@@ -1932,13 +1970,13 @@ gen_data['rhun_site'] = [
 
 gen_data['mordor_site'] = [
   'Ephel Duath, the Mountains of Shadow',
-  'the Sea of Nurnen',
+  'Sea of Nurnen',
   'Nurn',
   'Barad-Dur, the Dark Tower',
   'plateau of Gorgoroth',
   'Mount Doom, Orodruin',
   'Minas Morgul',
-  'the Morgul Vale',
+  'Morgul Vale',
   'Morannon'
 ];
 
@@ -1955,22 +1993,24 @@ gen_data['site_occupancy'] = [
 
 gen_data['ruin'] = [
   'barrow',
-  '{me_age} tower',
+  'tower',
   'well',
   'aqueduct',
   'mine',
-  'ruin',
+  'fortress',
   'colossus',
   'outpost',
   'hunting lodge',
   'encampment',
-  'cave'
+  'cave',
+  'battlefield'
 ];
 
 gen_data['me_age'] = [
   'First Age',
   'Second Age',
-  'Third Age'
+  'Third Age',
+  'Fourth Age'
 ];
 
 gen_data['site_history'] = {
@@ -1999,7 +2039,7 @@ gen_data['site_oddity'] = {
   '3-4': 'key features are blood-colored',
   '5-6': 'sits surrounded by ravens',
   '7-8': 'was built out of a massive rock',
-  '9-10': 'features weird inscriptions',
+  '9-10': 'features weird, {color} inscriptions',
   '11-12': 'sits surrounded by graves',
   '13-14': 'was built on a battlefield',
   '15-16': 'remains haunted',
@@ -2014,5 +2054,62 @@ gen_data['site_oddity'] = {
   '33-34': 'remains decorated with skulls',
   '35-36': 'is overgrown'
 };
+
+gen_data['sauron_forces'] = {
+  '1-2': 'orcs',
+  '3-4': 'grim men',
+  '5-6': 'Uruk-Hai',
+  '7-8': 'goblins',
+  '9-10': 'crebain',
+  '11-12': 'wargs',
+  '13-14': 'mumakil',
+  '15-16': 'Ringwraiths'
+};
+
+gen_data['sindarin_combo'] = [
+  '{sindarin_site_prefix} {sindarin_site_adjective}{sindarin_site_suffix}',
+  '{sindarin_site_prefix}{sindarin_site_suffix}',
+  '{sindarin_site_adjective}{sindarin_site_suffix}'
+];
+
+gen_data['sindarin_site_prefix'] = [
+  'Barad',
+  'Eithel',
+  'Haudh',
+  'Sarch',
+  'Orthrond',
+  'Minas'
+];
+
+gen_data['sindarin_site_adjective'] = [
+  'Angren',
+  'Eryn',
+  'Taur',
+  'Celeb',
+  'And',
+  'Lind'
+];
+
+gen_data['sindarin_site_suffix'] = [
+  'ost',
+  '-dur',
+  '-en-Faroth',
+  'orn',
+  'nen',
+  'duin',
+  'on'
+];
+
+gen_data['color'] = [
+  'red',
+  'blue',
+  'yellow',
+  'green',
+  'orange',
+  'purple',
+  'black',
+  'white',
+  'gray'
+];
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
