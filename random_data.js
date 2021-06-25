@@ -306,6 +306,7 @@
     'villa',
     'valley',
     'ruin',
+    'colossus',
     'druid circle',
     'prison'
   ];
@@ -1624,8 +1625,7 @@ gen_data['number'] = [
 gen_data['units'] = [
 	'leagues',
 	'kilometers',
-	'valleys',
-	'mountains'
+	'days'
 ];
 
 
@@ -1726,5 +1726,293 @@ gen_data['food'] = [
 'bundled herbs',
 'a leg of lamb'
 ];
+
+
+gen_data['sites'] = {
+  '1-40':   '{eriador}',
+  '41-80': '{rhovanion}',
+  '81-90': '{gondor}',
+  '91-92': '{lindon}',
+  '93-96': '{harad}',
+  '97-98': '{rhun}',
+  '99-100': '{mordor}'
+};
+
+gen_data['eriador'] = [
+  'The site lies {number} {units} {cardinal_directions} of {eriador_site}. It is a {site_occupancy} {ruin} by {eriador_factions}. It remains {site_condition}.',
+  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {eriador_site}.',
+  'You have heard {tale_synonyms} of this {site_condition} {ruin} near {eriador_site} mention that it was {site_history}.',
+  'Locals from nearby {eriador_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {eriador_factions}.'
+];
+
+gen_data['rhovanion'] = [
+  'The site lies {number} {units} {cardinal_directions} of {rhovanion_site}. It is a {site_occupancy} {ruin} by {rhovanion_factions}. It remains {site_condition}.',
+  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {rhovanion_site}.',
+  'You have heard {tale_synonyms} of this {site_condition} {ruin} near {rhovanion_site} mention that it was {site_history}.',
+  'Locals from nearby {rhovanion_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {rhovanion_factions}.'
+];
+
+gen_data['gondor'] = [
+  'The site lies {number} {units} {cardinal_directions} of {gondor_site}. It is a {site_occupancy} {ruin} by {gondor_factions} It remains {site_condition}.',
+  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {gondor_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {gondor_site} mention that it was {site_history}.',
+  'Locals from nearby {gondor_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {gondor_factions}.'
+];
+
+gen_data['lindon'] = [
+  'The site lies {number} {units} {cardinal_directions} of {lindon_site}. It is a {site_occupancy} {ruin} by {lindon_factions} It remains {site_condition}.',
+  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {lindon_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {lindon_site} mention that it was {site_history}.',
+  'Locals from nearby {lindon_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {lindon_factions}.'
+];
+
+gen_data['harad'] = [
+  'The site lies {number} {units} {cardinal_directions} of {harad_site}. It is a {site_occupancy} {ruin} by {harad_factions} It remains {site_condition}.',
+  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {harad_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {harad_site} mention that it was {site_history}.',
+  'Locals from nearby {harad_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {harad_factions}.'
+];
+
+gen_data['rhun'] = [
+  'The site lies {number} {units} {cardinal_directions} of {rhun_site}. It is a {site_occupancy} {ruin} by {rhun_factions}. It remains {site_condition}.',
+  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in nearby {rhun_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {rhun_site} mention that it was {site_history}.',
+  'Locals from nearby {rhun_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {rhun_factions}.'
+];
+
+gen_data['mordor'] = [
+  'The site lies {number} {units} {cardinal_directions} of {mordor_site}. It is a {site_occupancy} {ruin} by {mordor_factions}. It remains {site_condition}.',
+  'Founded in the {me_age}, {tale_synonyms} of this {site_condition} {ruin} abound in the nearby {mordor_site}.',
+  'You heard {tale_synonyms} of this {site_condition} {ruin} near {mordor_site} mention that it was {site_history}.',
+  'Locals from nearby {mordor_site} say this {site_occupancy} {me_age} {ruin} {site_oddity} and is known to the {mordor_factions}.'
+];
+
+gen_data['tale_synonyms'] = [
+  'rumors',
+  'stories',
+  'tales',
+  'legends',
+  'rumors',
+  'whispers',
+  'riddles in the dark',
+  'songs',
+  'idle-gossip'
+];
+
+
+gen_data['eriador_site'] = [
+  'Bree',
+  'Shire',
+  'North Downs',
+  'Gray Havens',
+  'The Last Homely House',
+  'Lone Lands',
+  'Forochel',
+  'Lake Evendim',
+  'Emyn Uial, the hills of Evendim',
+  'Weather Hills',
+  'Barrow Downs',
+  'Green Way',
+  'Trollshaws',
+  'Ettenmoors',
+  'Mount Gram',
+  'Carn Dum',
+  'Cold Fells',
+  'Eregion',
+  'Annuminas',
+  'Arthedain',
+  'Tharbad'
+];
+
+gen_data['eriador_factions'] = [
+  'Hobbits',
+  'Dunedain',
+  'Elves of Rivendell',
+  'Orcs',
+  'Angmar',
+  'Blue Mountain Dwarves',
+  'Misty Mountain Dwarves',
+  'the Eglain',
+  'Rangers of Esteldin',
+  'Lossoth of Forochel',
+  'Wardens of Annuminas',
+  'the Grey Company',
+  'free people of Dunland',
+  'Theodred\' riders',
+  'the Council of the North',
+  'Thorin\'s Hall'
+];
+
+gen_data['rhovanion_site'] = [
+  'Mirkwood',
+  'the Lonely Mountain',
+  'the Dales',
+  'Laketown',
+  'Rohan',
+  'the Iron Hills',
+  'Wilderland'
+];
+
+gen_data['rhovanion_factions'] = [
+'Iron Garrison',
+'Galadhrim',
+'Malledhrim',
+'The Riders of Stangard',
+'Heroes of Limlight Gorge',
+'peoples of the Wold',
+'peoples of the Norcrofts',
+'peoples of the Entwash Vale',
+'peoples of the Sutcrofts',
+'peoples of Wildermore',
+'Survivors of Wildermore',
+'the Eorlingas',
+'the Helmingas',
+'the Ents of Fangorn Forest',
+'Spiders of Mirkwood',
+'Dol-Goldur Orcs',
+'Misty Mountain Dwarves'
+];
+
+gen_data['gondor_site'] = [
+  'Emyn Arnen',
+  'Osgiliath',
+  'Minas Tirith',
+  'Edhellond (Elf-haven)',
+  'Pinnath Gelin',
+  'Anfalas (Langstrand)',
+  'the river Lefnui',
+  'the rive Morthond',
+  'Dol Amroth',
+  'Ethring'
+];
+
+gen_data['gondor_factions'] = [
+  'Dol Amroth',
+  'peoples of Ringlo Vale',
+  'peoples of Dor-en-Ernil',
+  'peoples of Lebennin',
+  'Pelargir',
+  'Rangers of Ithilien',
+  'Defenders of Minas Tirith'
+];
+
+gen_data['lindon_site'] = [
+  'Forlindon',
+  'the river Forlond',
+  'Ered Luin, the Blue Mountains',
+  'Gulf of Lune',
+  'the river Harlond',
+  'Harlindon'
+];
+
+gen_data['harad_site'] = [
+  'Harondor',
+  'the river Harden',
+  'Near Harad',
+  'Haradwaith',
+  'Far Harad',
+  'Umbar',
+  'City of the Corsairs',
+  'the havens of Umbar',
+  'the Harad Road'
+];
+
+gen_data['harad_factions'] = [
+  'Haradrim',
+  'Umbarim',
+  'people of Khand',
+  'chiefs of Haradwaith'
+];
+
+gen_data['rhun_site'] = [
+  'Rhun',
+  'sea of Rhun',
+  'Celduin, the River Running'
+];
+
+gen_data['mordor_site'] = [
+  'Ephel Duath, the Mountains of Shadow',
+  'the Sea of Nurnen',
+  'Nurn',
+  'Barad-Dur, the Dark Tower',
+  'plateau of Gorgoroth',
+  'Mount Doom, Orodruin',
+  'Minas Morgul',
+  'the Morgul Vale',
+  'Morannon'
+];
+
+gen_data['mordor_factions'] = [
+  'the forces of Sauron',
+  'the Ringwraiths'
+];
+
+gen_data['site_occupancy'] = [
+  'occupied',
+  'abandoned',
+  'seasonally used'
+];
+
+gen_data['ruin'] = [
+  'barrow',
+  '{me_age} tower',
+  'well',
+  'aqueduct',
+  'mine',
+  'ruin',
+  'colossus',
+  'outpost',
+  'hunting lodge',
+  'encampment',
+  'cave'
+];
+
+gen_data['me_age'] = [
+  'First Age',
+  'Second Age',
+  'Third Age'
+];
+
+gen_data['site_history'] = {
+  '1-4': 'ravaged by fire',
+  '5-9': 'beset by a long and bloody siege during the {me_age}',
+  '10-13': 'afflicted by a plague',
+  '14-17': 'rife with hunger and famine',
+  '18-21': 'abandoned by its builders',
+  '22-25': 'fell during a bloody revolt',
+  '26-29': 'conquered by enemies',
+  '30-31': 'the site of a tragic incident',
+  '32-34': 'ravaged by years of war',
+  '35-36': 'overrun by Servants of the Shadow'
+};
+
+gen_data['site_condition'] = {
+  '1-4': 'ruined',
+  '5-6': 'decayed',
+  '7-10': 'worn',
+  '11': 'recently used',
+  '12': 'well-kept'
+};
+
+gen_data['site_oddity'] = {
+  '1-2': 'features odd architecture',
+  '3-4': 'key features are blood-colored',
+  '5-6': 'sits surrounded by ravens',
+  '7-8': 'was built out of a massive rock',
+  '9-10': 'features weird inscriptions',
+  '11-12': 'sits surrounded by graves',
+  '13-14': 'was built on a battlefield',
+  '15-16': 'remains haunted',
+  '17-18': 'reeks of a foul odor',
+  '19-20': 'is beset by strange sounds',
+  '21-22': 'lies covered in {color} flowers',
+  '23-24': 'always rains',
+  '25-26': 'was built around an ancient statue',
+  '27-28': 'is windy',
+  '29-30': 'sits amid fungal fields',
+  '31-32': 'is still blackened by soot',
+  '33-34': 'remains decorated with skulls',
+  '35-36': 'is overgrown'
+};
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

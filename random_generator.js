@@ -110,6 +110,15 @@ function more_plot(){
 };
 
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+function more_sites(){
+    var a=document.getElementById("site_output"),b=parseInt(a.rows);
+    if(b<1)b=1;
+    b=generate_list("sites",b);
+    b=JSON.parse(JSON.stringify(b));
+    a.value=b.join("\n\n");
+};
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function more_gender(){

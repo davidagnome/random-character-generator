@@ -1,4 +1,4 @@
-# random-character-generator
+# The One Ring 2nd Edition Generators
 
 
 ## Credit
